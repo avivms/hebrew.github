@@ -1,0 +1,47 @@
+  
+הדפס <- function(x){
+  print(x)
+}
+
+ריבוע <- function(x){
+  return(x^2)
+}
+
+סכום <- function(x){
+  return(sum(x))
+}
+
+גדול <- function(x){
+  return(max(x))
+}
+
+כ <- function(x,...){
+  c(x,...)
+}
+
+רצף <- function(x,y){
+  seq(x,y)
+}
+
+קטן <- function(x){
+  min(x)
+}
+
+דרג <- function(x,...){
+  rank(x,...length())
+}
+
+ממוצע <- function(x){
+  mean(x)
+}
+
+אם <- function(x){
+  if(x)
+}
+
+עגל <- function(x){
+  round(x)
+}
+
+<- function(x){
+}
