@@ -1,4 +1,4 @@
-  
+
 הדפס <- function(x){
   print(x)
 }
